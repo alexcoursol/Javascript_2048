@@ -1,0 +1,237 @@
+body, div, button, img, input, ul, li{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Sans-serif;
+	cursor: default;
+	list-style: none;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#size_buttons{
+	height: 100%;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#arrowBox{
+	text-align: center;
+	width: 60%;
+	height: 30%;
+}
+
+#arrowBox img {
+	width: 50%;
+	height: 50%;
+}
+
+.size{
+	width: 60%;
+	height: 8%;
+	margin-bottom: 5%;
+	cursor: pointer;
+	font-size: 2em;
+	background-color: #2a5369;
+	border: none;
+	color: white;
+	text-align: center;
+}
+.size:hover {
+	background-color: white;
+	color: #2a5369;
+	border: 2px solid #2a5369;
+}
+
+#container2{
+	display: inline-block;
+	width: auto;
+}
+
+#allgame{
+	width: 750px;
+	margin: 0 auto;
+}
+
+#game{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#top{
+	margin-bottom: 20px;
+}
+
+#new_game{
+	cursor: pointer;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #2a5369;
+	border: none;
+	color: white;
+}
+#new_game:hover {
+	background-color: white;
+	border: 2px solid #2a5369;
+	color: #2a5369;
+}
+
+#result{
+	width: 130px;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 150%;
+	font-size: 1.8em;
+}
+
+#cadre{
+	position: absolute;
+	height: auto;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+
+#loose, #win{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: none;
+}
+
+#loose p, #win p{
+	text-align: center;
+	line-height: 500px;
+	font-size: 5em;
+	color: #ffffff;
+	margin-top: 0px;
+}
+
+.square{
+	width: 130px;
+	height: 130px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	float: left;
+	margin: 3px;
+	text-align: center;
+	line-height: 135px;
+	font-size: 3em;
+}
+
+span{
+	/*color: red;*/
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#scores{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-self: center;
+	width: 20%;
+	height: 70%;
+	align-items: center;
+}
+
+#score_table {
+	width: 80%;
+	min-height: 20%;
+	text-align: center;
+	border: 1px solid #000000;
+}
+#score_table tr {
+	width: 35%;
+	height: 10%;
+}
+
+td, th {
+	border: 1px solid #000000;
+}
+
+#form {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#form li {
+	height: 15%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
+	margin-bottom: 2%;
+}
+#form li button {
+	cursor: pointer;
+	font-size: 1.5em;
+	background-color: #2a5369;
+	border: none;
+	color: white;
+}
+#form li button:hover {
+	background-color: white;
+	color: #2a5369;
+	border: 2px solid #2a5369;
+}
+
+.deux{
+	background-color: #FCFCFC;
+}
+.quatre{
+	background-color: #FFFAF0;
+}
+.huit{
+	background-color: #FFCF9D;
+}
+.seize{
+	background-color: #CF888A;
+}
+.tentedeux{
+	background-color: #DD1383;
+}
+.soixantequatre{
+	background-color: #693575;
+}
+.centvingthuit{
+	background-color: #FCFFC4;
+}
+.deuxcentc{
+	background-color: #F2FB64;
+}
+.cinqcent{
+	background-color: #BDFF00;
+}
+.mille{
+	background-color: #1DB018;
+}
+.deuxmille{
+	background-color: #F2D3EA;
+}
+
+

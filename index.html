@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<aside id="size_buttons">
+			<button class='size' id="4">4 x 4</button>
+			<button class='size' id="5">5 x 5</button>
+			<button class='size' id="6">6 x 6</button>
+			<div id="arrowBox"><img id="arrow" src="images/arrow.png" alt="arrow"/></div>
+		</aside>
+		<div id="container2">
+			<div id="allgame">
+				<div id = "game">
+					<div id='top'>
+						<button id="new_game">NEW GAME</button>
+						<div id='result'></div>
+					</div>
+					<div id="cadre">
+					</div>
+					<div id="loose"><p>You Lost !</div>
+					<div id="win"><p>You Won !</div>
+				</div>
+			</div>
+		</div>
+		<aside id="scores">
+			<span>HIGHEST SCORE</span>
+			<table cellspacing="0" cellpadding="0" id="score_table">
+				<tr>
+					<th>Login</th>
+					<th>Score</th>
+				</tr>
+			</table>
+			<ul id="form">
+				<li><label>Enter your login</label></li>
+				<li><input type="text" id="scores_text" /></li>
+				<li><button id="scores_save" >Save your score</button></li>
+			</ul>
+		</aside>
+	</div>
+</body>
+</html>
